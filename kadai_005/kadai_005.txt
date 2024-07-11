@@ -1,0 +1,17 @@
+PS C:\Users\mirei\OneDrive\デスクトップ\git_challenge>git init
+Initialized empty Git repository in C:/Users/mirei/OneDrive/繝・せ繧ｯ繝医ャ繝・git_challenge/.git/
+PS C:\Users\mirei\OneDrive\デスクトップ\git_challenge>git add hello_world.txt
+PS C:\Users\mirei\OneDrive\デスクトップ\git_challenge>git commit
+Aborting commit due to empty commit message.
+PS C:\Users\mirei\OneDrive\デスクトップ\git_challeng> git commit -m "インデックスに登録"
+[main (root-commit) 5264bd1] 繧､繝ｳ繝・ャ繧ｯ繧ｹ縺ｫ逋ｻ骭ｲ
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\mirei\OneDrive\デスクトップ\git_challenge>git add hello_world.txt
+PS C:\Users\mirei\OneDrive\デスクトップ\git_challeng> git commit -m "日本語を追加"
+[main 25c9c34] 譌･譛ｬ隱槭ｒ霑ｽ蜉
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\mirei\OneDrive\デスクトップ\git_challenge>git log --oneline
+25c9c34 (HEAD -> main) 日本語を追加
+5264bd1 インデックスに登録
+PS C:\Users\mirei\OneDrive\デスクトップ\git_challenge>
